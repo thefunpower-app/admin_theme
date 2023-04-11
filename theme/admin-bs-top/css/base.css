@@ -1,0 +1,10 @@
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav li.nav-item {
+        margin-right: 30px;
+    }
+    
+}
+.actived{
+    color: #447e9b !important;
+    background: none !important;
+}

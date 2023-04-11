@@ -1,0 +1,23 @@
+.center{
+	text-align: center;
+}
+
+#app { 
+    margin: auto;
+    margin-top: 10px;
+}
+.title{
+	font-size: 18px;
+	font-weight: bold;
+}
+.mt5{
+	margin-top: 5px;
+}
+
+.wh200{
+	 
+}
+
+.body-wrapper{
+	margin:20px;
+}
