@@ -29,6 +29,7 @@ $menu  = Menu::get();
             overflow: hidden;
         }
     </style>
+    <title><?=$title?>运营中心</title>
   </head>
   <body>
 <?php 
