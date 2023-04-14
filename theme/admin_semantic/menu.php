@@ -45,7 +45,7 @@
         <div class="ui dropdown item">
           <i class="user cirlce icon"></i><?= cookie('user_name') ?>
           <div class="menu">
-            <a href="/admin/user_password.php" class="item">
+            <a href="/admin/account.php" class="item">
               <i class="info circle icon"></i> 个人信息</a
             > 
             <a href="/admin/logout.php" class="item">

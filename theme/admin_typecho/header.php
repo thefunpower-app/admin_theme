@@ -6,7 +6,7 @@
 use lib\Menu; 
 $menu  = Menu::get();
 ?><meta name="viewport" content="width=device-width,initial-scale=1"> 
-    <?php misc('vue,element,jquery,node,layui,bs5'); ?> 
+    <?php misc('vue,element,jquery,node,layui,echarts,bs5,wangEditor,sortable'); ?>  
     <link rel="stylesheet" href="/theme/admin_typecho/css/style.css">
     <link href="/static/css/common.css" rel="stylesheet">
     <link href="/static/css/admin.css" rel="stylesheet">
