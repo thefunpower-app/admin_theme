@@ -22,8 +22,7 @@ $menu  = Menu::get();
   
   <link rel="stylesheet" href="<?=cdn()?>theme/admin-material/assets/css/demo/style.css">
   <link href="<?=cdn()?>static/css/common.css" rel="stylesheet">
-  <link href="<?=cdn()?>static/css/admin.css" rel="stylesheet">
-  <script charset="utf-8" src="https://map.qq.com/api/gljs?v=1.exp&key=<?=get_config('tx_map_key')?>"></script>  
+  <link href="<?=cdn()?>static/css/admin.css" rel="stylesheet"> 
 <style type="text/css">
   #app{ 
     margin-top: 0px  !important;
