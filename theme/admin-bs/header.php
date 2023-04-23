@@ -20,7 +20,6 @@ $menu  = Menu::get();
   <link href="/static/css/common.css" rel="stylesheet">
   <link href="/static/css/admin.css" rel="stylesheet">
   <link href="/theme/admin-bs/css/app.css" rel="stylesheet">
-  <script charset="utf-8" src="https://map.qq.com/api/gljs?v=1.exp&key=<?=get_config('tx_map_key')?>"></script>  
   <link href="/static/lib/element-ui/theme-new/index.css" rel="stylesheet">
   <?php do_action("view.start");?>
 
