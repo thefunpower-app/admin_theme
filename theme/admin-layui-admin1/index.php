@@ -6,8 +6,8 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <link rel="stylesheet" href="/theme/admin_layui/layuiadmin/layui/css/layui.css" media="all">
-  <link rel="stylesheet" href="/theme/admin_layui/layuiadmin/style/admin.css" media="all">
+  <link rel="stylesheet" href="/theme/admin-layui-admin1/layuiadmin/layui/css/layui.css" media="all">
+  <link rel="stylesheet" href="/theme/admin-layui-admin1/layuiadmin/style/admin.css" media="all">
   <style type="text/css">
     .layui-side-menu .layui-nav .layui-nav-item a { 
       padding-left: 16px; 
@@ -122,7 +122,7 @@
       <!-- 主体内容 -->
       <div class="layui-body" id="LAY_app_body">
         <div class="layadmin-tabsbody-item layui-show">
-          <iframe src="/theme/admin_layui/welcome.php" frameborder="0" class="layadmin-iframe"></iframe>
+          <iframe src="/theme/admin-layui-admin1/welcome.php" frameborder="0" class="layadmin-iframe"></iframe>
         </div>
       </div> 
       <!-- 辅助元素，一般用于移动设备下遮罩 -->
@@ -130,10 +130,10 @@
     </div>
   </div>
 
-  <script src="/theme/admin_layui/layuiadmin/layui/layui.js"></script>
+  <script src="/theme/admin-layui-admin1/layuiadmin/layui/layui.js"></script>
   <script>
   layui.config({
-    base: '/theme/admin_layui/layuiadmin/' //静态资源所在路径
+    base: '/theme/admin-layui-admin1/layuiadmin/' //静态资源所在路径
   }).extend({
     index: 'lib/index' //主入口模块
   }).use('index');
