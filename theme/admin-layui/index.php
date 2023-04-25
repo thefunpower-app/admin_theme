@@ -18,8 +18,14 @@ include __DIR__.'/header.php';
       <ul class="layui-nav layui-layout-right">
         
         <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
-          <a href="https://github.com/Sight-wcg/layui-theme-dark" target="_blank">
-            <i class="layui-icon layui-icon-github" style="font-size: 20px;"></i>
+          <a href="javascript:void();" class="account">
+            <i class="layui-icon layui-icon-user" style="font-size: 20px;"></i>
+          </a>
+        </li>
+
+        <li class="layui-nav-item" lay-header-event="menuRight" lay-unselect>
+          <a href="/<?=ADMIN_DIR_NAME?>/logout.php" onclick="return confirm('确认退出？');" >
+            <i class="layui-icon layui-icon-logout" style="font-size: 20px;"></i>
           </a>
         </li>
       </ul>
@@ -62,7 +68,7 @@ include __DIR__.'/header.php';
 
     <div class="layui-body">
       <!-- 内容主体区域 -->
-      <iframe id="body-container"  src="/admin/welcome.php" style="border:0;width: 100%;height:93vh;"></iframe> 
+      <iframe id="body-container"  src="/<?=ADMIN_DIR_NAME?>/welcome.php" style="border:0;width: 100%;height:93vh;"></iframe> 
     </div>
 
     <!-- <div class="layui-footer">
@@ -83,7 +89,7 @@ include __DIR__.'/header.php';
     var drawer = layui.drawer;
     var $=layui.$;
 
-    renderView('#body-container','/admin/welcome.php');
+    renderView('#body-container','/<?=ADMIN_DIR_NAME?>/welcome.php');
 
     util.event('lay-header-event',{
       menuLeft: function(){
@@ -136,7 +142,10 @@ include __DIR__.'/header.php';
       el.textContent = cssStr;
     }
     $('.click_welcome').click(function(){
-      $('#body-container').attr('src','/admin/welcome.php');
+      $('#body-container').attr('src','/<?=ADMIN_DIR_NAME?>/welcome.php');
+    });
+    $('.account').click(function(){
+      $('#body-container').attr('src','/<?=ADMIN_DIR_NAME?>/account.php');
     });
     
   });
