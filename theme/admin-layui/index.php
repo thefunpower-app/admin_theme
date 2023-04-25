@@ -6,7 +6,7 @@ include __DIR__.'/header.php';
 <wc-dom-inspector id="domInspector" includes="#body-container"></wc-dom-inspector>
   <div class="layui-layout layui-layout-admin">
     <div class="layui-header">
-      <div class="layui-logo layui-hide-xs layui-bg-black"><?=$node_config['title']?></div>
+      <div class="layui-logo hand layui-hide-xs layui-bg-black click_welcome"><?=$node_config['title']?></div>
       <!-- 头部区域（可配合layui 已有的水平导航） -->
       <ul class="layui-nav layui-layout-left">
         <!-- 移动端显示 -->
@@ -135,6 +135,10 @@ include __DIR__.'/header.php';
       }
       el.textContent = cssStr;
     }
+    $('.click_welcome').click(function(){
+      $('#body-container').attr('src','/admin/welcome.php');
+    });
+    
   });
 </script>
 <?php 
