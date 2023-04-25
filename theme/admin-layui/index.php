@@ -62,7 +62,7 @@ include __DIR__.'/header.php';
 
     <div class="layui-body">
       <!-- 内容主体区域 -->
-      <iframe id="body-container"  src="/admin/welcome.php" style="border:0;width: 100%;height:100vh;"></iframe> 
+      <iframe id="body-container"  src="/admin/welcome.php" style="border:0;width: 100%;height:93vh;"></iframe> 
     </div>
 
     <!-- <div class="layui-footer">
